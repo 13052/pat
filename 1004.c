@@ -8,7 +8,7 @@
 #include "string.h"
 
 typedef struct stu{
-    //Mention it that the puzzle is required 10 long string, plus '\0', we should create name[11], id[11]
+    //Mention it that these string is required 10 long string, plus '\0', we should create name[11], id[11]
     char name[11];
     char id[11];
     int score;
