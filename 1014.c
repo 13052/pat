@@ -10,7 +10,6 @@ int main(){
     gets(a2);
     gets(a3);
     gets(a4);
-
     for(i=0;i<strlen(a1)&&i<strlen(a2);i++){
         if((a1[i]==a2[i])&&(a1[i]>='A')&&(a1[i]<='G')){
             switch(a1[i]){  
@@ -38,6 +37,9 @@ int main(){
             }
         }
     }
+    /*Process the first 2 strings*/
+
+
 
     for(i=0;i<strlen(a3)&&i<strlen(a4);i++){
         if(a3[i]==a4[i]&&((a3[i]>= 'A' && a3[i] <= 'Z' )|| (a3[i] >= 'a' && a3[i] <= 'z'))){
@@ -45,6 +47,7 @@ int main(){
             break;
         }
     }
+    //Last 2 strings
     return 0;
 }
 
