@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define N 1000
+
 typedef struct poly{
     int coe;
     int index;
