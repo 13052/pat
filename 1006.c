@@ -19,7 +19,7 @@ int main(){
     return 0;
 }
 /*
-The first time I have code below, that's difficultilaze...
+The first time I have code below...
 */
 // #include <stdio.h>
 // int main(){
